@@ -9,7 +9,7 @@ body{
 #home{
     /*margin-top: 10vh ;*/
     height: 90vh;
-    max-width: 84vw;
+    /*max-width: 84vw;*/
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -46,4 +46,88 @@ body{
     transition: .5s all ease-in-out;
     /*justify-content: center;*/
 
+}
+
+
+/*projects*/
+
+.ph1{
+    display: inline-block;
+}
+
+/*project css starts*/
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(transparent 5%, white 60%, black 0%);
+    margin: 0 -7vw;
+
+}
+
+.p-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+    padding: 0 7vw;
+}
+
+.btn {
+    width: auto;
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    border-radius: 0;
+    text-decoration: none;
+    /*height: auto;*/
+    /*width: 10%;*/
+    transition: 0.5s all ease-in-out;
+}
+
+.btn:hover {
+    background-image: linear-gradient(
+            45deg,
+            var(--base) 25%,
+            var(--complimentary2)
+    );
+    color: white;
+    border: none;
+    transform: scale(1.1);
+}
+
+
+/*cards in project*/
+
+.p-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 12vh 7vw 0 7vw;
+
+}
+
+.pro-div {
+    /*border: 3px solid black;*/
+    min-height: 60vh;
+    max-width: 100vw;
+    background-color: white;
+    transition: 0.5s all ease-in-out;
+    /*margin: 0 7vw;*/
+}
+
+.pro-div:hover {
+    transform: scale(1.2);
+}
+
+.pro-pic {
+    max-width: 40vh;
+    min-height: 40vh;
+    /*margin: 0 7vw;*/
+
+
+}
+
+.p-text {
+    margin: 7% 0 0 5%;
 }
