@@ -281,3 +281,135 @@ textarea {
 }
 
 /*form ends*/
+
+/*footer starts*/
+
+footer {
+    display: flex;
+    max-width: 100vw;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    height: auto;
+    background: #081122 ;
+
+}
+
+.f-1 {
+    /*margin-left: 7vw;*/
+    /*display: flex;*/
+    /*align-self: center;*/
+    background-color: #f2a70c;
+}
+li{
+    display: inline-block;
+    justify-content: center;
+}
+ul{
+    width: 80vw;
+}
+/*ul{*/
+/*    width: 100vw;*/
+/*    margin: 0 7vw;*/
+/*    justify-content: center;*/
+/*}*/
+
+.f-1-nav {
+    display: flex;
+    font-size: 1.25em;
+    color: #081122;
+    justify-content: center;
+}
+
+.nav-item-f {
+    padding: 3%;
+
+}
+
+
+.nav-link-f:hover {
+    background-color: #081122;
+    padding: 4px;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+
+.nav-link-f {
+    size: 2em;
+    color: #081122;
+    font-weight: bold;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.f-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100vw;
+
+
+}
+
+.f-2-1 {
+    display: flex;
+    max-width: 100vw;
+    margin:0 7vw;
+    flex-direction: column;
+}
+
+.f-2-2 {
+    display: flex;
+    max-width: 100vw;
+    margin: 0 7vw;
+    justify-content: space-between;
+    /*align-content: center;*/
+}
+
+.f-2-name {
+    font-size: 13vw;
+    /*max-width: 100vw;*/
+
+
+}
+
+.f-2-p {
+    display: inline-block;
+    font-size: 5vw;
+    color: white;
+    /*max-width: 100vw;*/
+
+}
+
+/*.wrapper-1 {*/
+/*    !*margin: 0 7vw 0 0;*!*/
+/*    float: right;*/
+
+/*    !*icons for footer*!*/
+/*}*/
+
+.wrapper-1 .icon {
+    background-color: white;
+}
+
+.up{
+    position: relative;
+    /*background-color: rgba(255, 255, 255, 0.51);*/
+    border-radius: 50%;
+    /*padding: 6vw;*/
+    float: right;
+    margin: 1vw;
+    width: 13vw;
+    height: 13vw;
+    font-size: 5vw;
+    display: flex;
+
+    box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    transition: all 0.2s
+}
+a {
+    justify-content: flex-end;
+}
+
+
+/*footer end*/
