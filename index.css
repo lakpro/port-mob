@@ -39,6 +39,11 @@ body{
     max-width: 50vw;
 
 }
+
+.name {
+    font-size: 10vw;
+}
+
 .pp {
     max-width: 50vw;
     border-radius: 30px;
@@ -131,3 +136,148 @@ body{
 .p-text {
     margin: 7% 0 0 5%;
 }
+
+/*project page ends*/
+
+/*contact page starts*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    /*height: 100vh;*/
+    background: linear-gradient(black, #081122);
+    margin: 0 -7vw;
+    max-width: 100vw;
+
+}
+
+.c-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7vw;
+    font-size: 7vw;
+    color: white;
+    /*height: 100vh;*/
+    max-width: 100vw;
+
+
+}
+
+.c-name {
+    font-size: 1.7em;
+}
+
+.c-name2 {
+    font-size: 2.3em;
+}
+.c-marv{
+    font-size: 1.8em;
+
+}
+
+/*contact me right side*/
+
+/*contact me left side end*/
+
+.c-form {
+    min-height: 100vh;
+    max-width: 100vw;
+    background:#f2a70c;
+}
+
+.container1 {
+    width: 100vw;
+    height: 100%;
+    /*float: right;*/
+    /*background-color: white;*/
+    text-align: center;
+    /*position: fixed;*/
+    /*margin-right: 7vw;*/
+    padding: 7vw;
+}
+
+.f-h2 {
+    /*margin-top: 10vh;*/
+    font-family: 'Quicksand', sans-serif;
+    font-size: 3em;
+    /*margin: 10% auto 7% auto;*/
+    color: #081122;
+}
+
+form {
+    border: 2px solid #081122;
+    border-radius: 10px;
+    margin: 11% 6% 16% 6%;
+    max-width: 100vw;
+    height: auto;
+
+
+}
+
+label, input, select, textarea {
+    display: block;
+    font-family: 'DM Mono', monospace;
+    position: relative;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: -10%;
+    font-size: 6vw;
+    font-weight: bold;
+    color: #081122;
+    /*width: inherit;*/
+
+}
+
+input, textarea, select {
+    margin-bottom: 1%;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5vw;
+    max-width: 100vw;
+    /*height: inherit;*/
+    background-color: transparent;
+    /*border: 10px solid black;*/
+    width: 99%;
+    padding: 2%;
+}
+
+
+::placeholder {
+    color: transparent;
+}
+
+textarea {
+    height: 25vh;
+
+}
+
+.f-btn {
+    width: 30vw;
+    height: 6%;
+    border: none;
+    border-radius: 10px;
+    background-color: #081122;
+    color: #f2a70c;
+    font-family: 'DM Mono', monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 3%;
+    transition: 0.5s all ease-in-out;
+
+}
+
+.f-btn:hover {
+    color: #081122;
+    background-color: transparent;
+    /*border:3px #081122 solid;*/
+    cursor: pointer;
+    transform: scale(1.3);
+    font-size: 2em;
+
+
+}
+
+/*form ends*/
