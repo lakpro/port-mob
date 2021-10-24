@@ -1,9 +1,20 @@
-$(document).ready(function(e) {
+// $(document).ready(function(e) {
+//
+//
+//     if (screen.width >= 568) {
+//
+//         window.location = "https://lakpro.github.io/portfolio/";
+//
+//     }
+// });
 
+// for progress bar
 
-    if (screen.width >= 568) {
+let progress = document.getElementById('progressBar')
+let totalHeight = document.body.scrollHeight - window.innerHeight
+window.onscroll = function () {
+    let progressHeight = (window.pageYOffset / totalHeight) * 100
+    progress.style.height = progressHeight + '%'
+}
 
-        window.location = "https://lakpro.github.io/portfolio/";
-
-    }
-});
+//progress bar ends
