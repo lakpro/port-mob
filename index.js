@@ -1,4 +1,5 @@
 // $(document).ready(function(e) {
+
 //
 //
 //     if (screen.width >= 568) {
@@ -7,6 +8,7 @@
 //
 //     }
 // });
+
 
 // for progress bar
 
@@ -18,3 +20,4 @@ window.onscroll = function () {
 }
 
 //progress bar ends
+
