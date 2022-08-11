@@ -9,15 +9,21 @@
 //     }
 // });
 
-
 // for progress bar
 
-let progress = document.getElementById('progressBar')
-let totalHeight = document.body.scrollHeight - window.innerHeight
+let progress = document.getElementById("progressBar");
+let totalHeight = document.body.scrollHeight - window.innerHeight;
 window.onscroll = function () {
-    let progressHeight = (window.pageYOffset / totalHeight) * 100
-    progress.style.height = progressHeight + '%'
-}
+  let progressHeight = (window.pageYOffset / totalHeight) * 100;
+  progress.style.height = progressHeight + "%";
+};
 
 //progress bar ends
 
+// if (window.innerWidth >= 768) {
+//   document.getElementById("contactId").classList.add("big");
+//   document.getElementById("contactId").classList.remove("small");
+// } else {
+//   document.getElementById("contactId").classList.add("small");
+//   document.getElementById("contactId").classList.remove("big");
+// }
