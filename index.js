@@ -27,3 +27,12 @@ window.onscroll = function () {
 //   document.getElementById("contactId").classList.add("small");
 //   document.getElementById("contactId").classList.remove("big");
 // }
+
+var cols = document.getElementsByClassName("pro-div");
+for (i = 0; i < cols.length; i++) {
+  cols[i].style.height = max(
+    getElementById("p1").height,
+    getElementById("p2").height,
+    getElementById("p3").height
+  );
+}
