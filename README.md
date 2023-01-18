@@ -1,5 +1,8 @@
-# port-mob
+# My Personal Portfolio
 
-This is just a temporary site for the mobile version.
-Will be soon merged with the actual site and become responsive !!
-In this I have used HTML/CSS/JavaScript along with some Bootstrap.
+You can see the live demo by clicking on this link: [LIVE DEMO](https://lakpro.github.io/port-mob/)
+
+I have used HTML/CSS/JavaScript along with some Bootstrap.
+I have also used an AAPI to make the form work. 
+Due to the limitations of the free API, there are only a limited requests per month.
+
